@@ -1,19 +1,19 @@
 # Transactions API
 
-App para gestão financeira desenvolvida no conteúdo do dia BE8.3.
+App for financial management.
 
-## Como executar?
+## How to run?
 
-O arquivo `docker-compose.yml` já define que ao subir o container, a aplicação já seja iniciada por meio do comando `npm run dev`. Portanto, basta executar o comando:
+The `docker-compose.yml` file already defines that when uploading the container, the application is already started through the `npm run dev` command. So just run the command:
 
 ```bash
 docker-compose up -d
 ```
 
-### Dica
+### Tip
 
-Caso tenha conflitos com portas já usadas. Use os comandos:
+If you have conflicts with already used ports. Use the commands:
 
 ```bash
-killall node # Parar qualquer aplicação node que esteja sendo executados na máquina!
-docker stop $(docker ps -qa) # Para containers que estão sendo executados!
+killall node # Stop any node application running on the machine!
+docker stop $(docker ps -qa) # Stop containers that are running!
